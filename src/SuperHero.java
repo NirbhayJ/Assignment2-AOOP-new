@@ -24,7 +24,7 @@ public class SuperHero extends Hero
 	//generating method show powers
 	public void showPowers()
 	{
-		System.out.println(this.name + " powers: ");
+		System.out.println(this.name);
 		
 		for(int i = 0; i < superPowers.length; i++)
 		{
@@ -34,6 +34,7 @@ public class SuperHero extends Hero
 	//generating methods random powers for the show power randomly 3 powers
 	private void generateRandomPowers()
 	{
+		//declaring list of powers in array
 		ArrayList<String> power = new ArrayList<String>(0);
 		
 		

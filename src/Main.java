@@ -11,7 +11,7 @@
 	public static void main(String[] args) 
 	{
 		
-		SuperHero superHero = new SuperHero("Captain Planet");
+		SuperHero superHero = new SuperHero("Captain Planet Powers : ");
 		superHero.showPowers();
 	}
 
